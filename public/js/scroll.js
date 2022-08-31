@@ -1,13 +1,13 @@
 const sr = ScrollReveal();                  //Méthode de l'effet
 
 
-sr.reveal('.col-md-5', {
-    origin: 'top',
-    distance: '50px',
-    scale: 0.87,
-    reset: true,
-    duration: 2250  
-});    
+// sr.reveal('.col-md-5', {
+//     origin: 'top',
+//     distance: '50px',
+//     scale: 0.87,
+//     reset: true,
+//     duration: 2250  
+// });    
 
 sr.reveal('.featurette-heading-1', {
     origin: 'left',
@@ -26,13 +26,13 @@ sr.reveal('.featurette-heading-2', {
 });  
 
 
-sr.reveal('.col-lg-4', {
-    origin: 'top',
-    distance: '50px',
-    reset: true,
+// sr.reveal('.col-lg-4', {
+//     origin: 'top',
+//     distance: '50px',
+//     reset: true,
 
-    duration: 2500
-});    
+//     duration: 2500
+// });    
 
 
 
