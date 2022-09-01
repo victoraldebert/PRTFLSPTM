@@ -36,24 +36,24 @@ sr.reveal('.featurette-heading-2', {
 
 
 
-sr.reveal('.featurette-heading', {
-    origin: 'bottom',
-    distance: '50px',
-    reset: true,
+// sr.reveal('.featurette-heading', {
+//     origin: 'bottom',
+//     distance: '50px',
+//     reset: true,
 
-    duration: 2000
-});
-
-
+//     duration: 2000
+// });
 
 
-sr.reveal('.lead', {
-    origin: 'bottom',
-    distance: '40px',
-    reset: true,
 
-    duration: 2250
-});
+
+// sr.reveal('.lead', {
+//     origin: 'bottom',
+//     distance: '40px',
+//     reset: true,
+
+//     duration: 2250
+// });
 
 
 sr.reveal('.btn-secondary', {
