@@ -3,7 +3,10 @@ body {
     padding-bottom: 3rem;
     color: #ffffff;
     background-color:#0f0f0f;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+     */
+    font-family: 'Poppins', sans-serif;
+
   }
   
   p {
@@ -68,7 +71,19 @@ body {
 }
 
 .mail {
-  column-count: 2;
+  column-count: 3;
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacter {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+
+  padding-right: 10px;
 }
 
 /* ----------------------contact */
@@ -132,7 +147,7 @@ body {
     width: 200px;
     color: #fff;
     /* align-items: center; */
-    margin-left: 5rem;
+    /* margin-left: 5rem; */
   
   }
   .btn.btn-secondary:hover {
@@ -147,7 +162,7 @@ body {
     border-radius: 40px;
     width: 200px;
     color: #fff;
-    margin-left: 17rem;
+    /* margin-left: 17rem; */
   }
   .btn-secondary-two:hover {
     background-color: rgb(255, 255, 255);
@@ -192,6 +207,22 @@ body {
     #projet{
       height: auto;
       width: 100%;
+    }
+
+    .featurette-heading-1 {
+      font-size: 50px;
+    }
+    .featurette-heading-2 {
+      font-size: 50px;
+    }
+    .col-md-5 {
+      height: 250px;
+      width: 250px;
+    }
+
+    #tech{
+      height: 250px;
+      width: 250px;
     }
   }
   .lead {
